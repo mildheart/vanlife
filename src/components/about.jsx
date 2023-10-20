@@ -1,12 +1,10 @@
 import React from "react";
 import '../css/main_css.css';
-import Header from './Header';
-import Footer from './Footer';
 
 export default function About(){
     return (
         <div className="about">
-            <Header />
+        
             <div className="about_body">
                 <div className="img_div"></div>
                 <div className="about_content">
@@ -31,7 +29,6 @@ export default function About(){
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     );
 }
